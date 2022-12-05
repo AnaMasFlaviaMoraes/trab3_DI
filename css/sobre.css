@@ -1,0 +1,51 @@
+p{
+    width: 600px;
+    text-align: justify;
+
+}
+.sobre{
+    margin-top: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#retorno{
+    margin-left: 10px;
+    margin-top: 50px;
+}
+
+.info{
+    margin-left: 150px;  
+}
+
+#ocorr{
+    margin-top: 30px;
+}
+
+table{
+    border-collapse: collapse;
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+td,th{
+    border: 2px solid black;
+}
+
+@media (max-width: 800px){
+    .sobre{
+        margin-left: 10px;
+    }
+    p{
+        width: 400px;
+    }
+    table{
+        width: 300px;
+    }
+    .info{
+        margin-left: 10px;  
+    }
+    
+  }

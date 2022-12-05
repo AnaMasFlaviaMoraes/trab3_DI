@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="../css/cadastro.css">
+    <link rel="icon" href="../images/logo.jpg"> 
+    <title>Cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="../images/logo.jpg" alt="Logo"></a>
+        </div>
+        <h1>Dark Horse</h1>
+        <ul class="login">
+            <li class="user_login"><a href="login.html">Área do usuário</a></li>
+            <li><a href="cadastro.html">Cadastre-se</a></li>
+        </ul>
+            
+        
+    </header>
+    <div class="corpo">
+        <nav class="sidenav">
+            <ul class="menu">
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="index.html">Produtos</a></li>
+                <li><a href="suporte.html">Suporte</a></li>
+                <li><a href="login.html">Área do usuário</a></li>
+            </ul>
+        </nav>
+        <div class="login_acesso">
+            <h3 id="cad">Cadastro</h3>
+            <form>
+                <div id="info_pessoal">
+                    <fieldset>
+                        <legend>Informações pessoais:</legend>
+                        <label for="nome_completo">Nome completo:</label>
+                        <input type="text" id="nome_completo"><br>
+                        <label for="cpf">CPF:</label>
+                        <input type="text" maxlength="14" id="cpf"><br>
+                        <label for="data_nasc">Data de nascimento:</label>
+                        <input type="date" id="data_nasc"><br>
+                        <label for="genero">Gênero:</label>
+                        <select name="genero" id="genero">
+                            <option>Feminino</option>
+                            <option>Masculino</option>
+                            <option>Não-binário</option>
+                            <option>Prefiro não dizer</option>
+                        </select><br>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone"><br>
+                    </fieldset>
+                </div>
+                <div id="acesso">
+                    <fieldset>
+                        <legend>Informações para acesso:</legend>
+                        <label for="usuario">Nome de usuário:</label>
+                        <input type="text" id="usuario"><br>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email"><br>
+                        <label for="cria_senha">Senha:</label>
+                        <input type="password" id="cria_senha"><br>
+                        <label for="confirma_senha">Confirme sua senha:</label>
+                        <input type="password" id="confirma_senha"><br>
+                        <br>
+                    </fieldset>
+                </div>
+                <input type="submit" value="Enviar" class="botao">
+            </form>
+        </div>
+        <a href="index.html" id="retorno">Voltar</a>  
+    </div>
+    <footer>
+        <div id="enderecos">
+            <h3>Nossos endereços:</h3>
+            <h4>Avenida dos Grandes Lagos, n° 113 - Rio Grande - RS</h4>
+            <h4>Rua 25 de Março, n° 256 - São Paulo - SP</h4>
+            <h4>Rua da Conceição, n° 78 - Bahia - BA</h4>
+        </div>
+        <div id="ajuda">
+            <a href="help.html">Precisa de ajuda?</a>
+        </div>
+        <div id="rede">
+            <h4>Visite nossas Redes sociais:</h4>
+            <a href="https://www.facebook.com"><img src="../images/logo_fb.png" width="30" alt="Logo Facebook"></a>
+            <a href="https://www.instagram.com"><img src="../images/logo_insta.png" width="30" alt="Logo Instagram"></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

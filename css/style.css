@@ -1,0 +1,195 @@
+@font-face{
+    font-family: 'titulo';
+    src: url('../fonts/Mukta-Bold.ttf')format('truetype');
+    
+}
+@font-face{
+    font-family: 'textos_comuns';
+    src: url('../fonts/Mukta-ExtraLight.ttf')format('truetype');
+    
+}
+@font-face{
+    font-family: 'textos_destaque';
+    src: url('../fonts/Mukta-Medium.ttf')format('truetype');
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    font-family: 'textos_comuns','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    background-color:#55BDB6;
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    min-width: 680px;
+    font-family: 'textos_comuns','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 14pt;
+    background-color: #158A82;
+    box-shadow: 0px 5px 20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap:wrap;
+}
+h1{
+    font-family: 'titulo','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 40pt;
+}
+ul{
+    list-style: none;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+    display: flex;
+}
+
+.logo img{
+    width: 60px;
+    height: 60px;
+    background-color:aquamarine;
+    border-radius: 10px;
+}
+#icone{
+    width: 25px;
+    height: 25px;
+}
+.login{
+    display: flex;
+    justify-content:end;
+}
+
+.login li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.login li a:hover {
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: aquamarine;
+
+}
+
+
+.menu li a {
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+.menu li a:hover {
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: aquamarine;
+
+}
+footer{
+    width: 100%;
+    height: max-content;
+    margin-top: 100px;
+    background-color:#158A82;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.corpo{
+    display: grid;
+    grid-template-columns: 220px auto;
+    grid-template-areas: 
+    "sidenav produto_principal"
+    "sidenav pacotes"
+    "sidenav beneficios";
+}
+.sidenav{
+    height: 960px;
+    width: 200px;
+    background-color:#158A82;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px;
+    display: flex;
+    grid-area: sidenav;
+    grid-row: sidenav;
+    
+}
+
+.produto_principal{
+    margin-top: 10px;
+    border: 1px solid black;
+    max-width: 1500px;
+    min-width: 500px;
+    height: 300px;
+    grid-area: produto_principal;
+} 
+.pacotes{
+    max-width: 1500px;
+    min-width: 500px;
+    margin-left: 2px;
+    height: 300px;
+    border: 1px solid black;
+    grid-area: pacotes;
+}
+.beneficios{
+    max-width: 1500px;
+    min-width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    grid-area: beneficios;
+}
+
+#ajuda{
+    display: flex;
+}
+
+#ajuda a{
+    color: black;
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    margin-left: 10px;
+
+}
+
+#ajuda a:hover {
+    color: black;
+    display: block;
+    text-decoration: none;
+    margin-left: 10px;
+    background-color: aquamarine;
+}
+
+h3{
+    font-family: 'textos_destaque','Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-size: 16pt;
+}
+
+#rede{
+    text-align: center;
+}
