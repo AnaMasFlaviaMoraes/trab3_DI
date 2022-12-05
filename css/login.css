@@ -11,6 +11,7 @@ form {
   font-size: 14pt;
   gap: 20px;
   border: 2px solid #158A82;
+  border-radius: 10px;
   
 }
 #log{
@@ -51,6 +52,7 @@ input {
     margin: 10px;
     font-size: 14pt;
     border: 2px solid #158A82;
+    border-radius: 10px;
   }
   #fundo{
     width: 300px; 
