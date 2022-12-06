@@ -103,6 +103,9 @@
         "sidenav item item"
         "sidenav item item";
     }
+    #prod{
+      margin-left: 100px;
+    }
     
   }
   @media (max-width: 650px){
@@ -123,6 +126,14 @@
     .produto{
         width: 285px;
         height: 200px;
+    }
+    .item:hover .overlay{
+      height: 50%;
+    }
+    .item:hover .text{
+      margin-left: 10px;
+      font-size: 10pt;
+      text-align: center;
     }
     
   }

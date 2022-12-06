@@ -95,5 +95,22 @@ figcaption{
     .info{
         margin-left: 10px;  
     }
+    .horse{
+        margin-left: 100px;
+        border-radius: 10px;
+    }
+    .dark{
+        margin-top: 50px;
+        margin-left: 10px;
+        
+    }
+    
+    figcaption{
+        margin-left: 10px;
+    }
+    
+    .animacao{
+        margin-left: 100px;
+    }
     
   }

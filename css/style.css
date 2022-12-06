@@ -194,3 +194,10 @@ h3{
 #rede{
     text-align: center;
 }
+
+@media (max-width: 850px){
+    .login{
+        margin-left: 200px;
+        margin-top: 20px;
+    }
+}
