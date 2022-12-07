@@ -23,16 +23,14 @@ p{
     margin-top: 30px;
 }
 
-table{
+#tabela{
     border-collapse: collapse;
-    width: 600px;
+    width: 750px;
     text-align: center;
     margin-top: 20px;
 }
 
-td,th{
-    border: 2px solid black;
-}
+
 
 .horse{
     width: 300px;
@@ -89,7 +87,7 @@ figcaption{
     p{
         width: 400px;
     }
-    table{
+    #tabela{
         width: 300px;
     }
     .info{

@@ -22,8 +22,12 @@
     margin-top: 10px;
 }
 
-.lista{
-    list-style: circle;
+.list-group-item{
+    background-color: #158A82;
+    border-color: aquamarine;
+}
+#renova{
+    margin-top: 50px;
 }
 
 

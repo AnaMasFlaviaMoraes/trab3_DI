@@ -36,44 +36,49 @@
         <div class="login_acesso">
             <h3 id="cad">Cadastro</h3>
             <form>
-                <div id="info_pessoal">
+                <div id="info_pessoal" class="mb-3">
                     <fieldset>
                         <legend>Informações pessoais:</legend>
-                        <label for="nome_completo">Nome completo:</label>
-                        <input type="text" id="nome_completo"><br>
-                        <label for="cpf">CPF:</label>
-                        <input type="text" maxlength="14" id="cpf"><br>
-                        <label for="data_nasc">Data de nascimento:</label>
-                        <input type="date" id="data_nasc"><br>
-                        <label for="genero">Gênero:</label>
-                        <select name="genero" id="genero">
+                        <label for="nome_completo" class="form-label">Nome completo:</label>
+                        <input type="text" id="nome_completo" class="form-control"><br>
+                        <label for="cpf" class="form-label">CPF:</label>
+                        <input type="text" maxlength="14" id="cpf" class="form-control"><br>
+                        <label for="data_nasc" class="form-label">Data de nascimento:</label>
+                        <input type="date" id="data_nasc" class="form-control"><br>
+                        <label for="genero" class="form-label">Gênero:</label>
+                        <select name="genero" id="genero" class="form-select">
                             <option>Feminino</option>
                             <option>Masculino</option>
                             <option>Não-binário</option>
                             <option>Prefiro não dizer</option>
                         </select><br>
-                        <label for="telefone">Telefone:</label>
-                        <input type="tel" id="telefone"><br>
+                        <label for="telefone" class="form-label">Telefone:</label>
+                        <input type="tel" id="telefone" class="form-control"><br>
                     </fieldset>
                 </div>
-                <div id="acesso">
+                <div id="acesso" class="mb-3">
                     <fieldset>
                         <legend>Informações para acesso:</legend>
-                        <label for="usuario">Nome de usuário:</label>
-                        <input type="text" id="usuario"><br>
-                        <label for="email">Email:</label>
-                        <input type="email" id="email"><br>
-                        <label for="cria_senha">Senha:</label>
-                        <input type="password" id="cria_senha"><br>
-                        <label for="confirma_senha">Confirme sua senha:</label>
-                        <input type="password" id="confirma_senha"><br>
+                        <label for="usuario" class="form-label">Nome de usuário:</label>
+                        <input type="text" class="form-control" id="usuario"><br>
+                        <label for="email" class="form-label">Email:</label>
+                        <input type="email" id="email" class="form-control"><br>
+                        <label for="cria_senha" class="form-label">Senha:</label>
+                        <input type="password" id="cria_senha" class="form-control"><br>
+                        <label for="confirma_senha" class="form-label">Confirme sua senha:</label>
+                        <input type="password" id="confirma_senha" class="form-control"><br>
                         <br>
                     </fieldset>
+                    <div class="mensagem">
+                        <input type="submit" value="Enviar" class="botao btn btn-success" id="botao">
+                        <div id="fora" class="alert alert-success">
+                            <div id="texto"><strong>Sucesso!</strong> Cadastro Realizado com sucesso!</div>
+                        </div>
+                    </div>
                 </div>
-                <input type="submit" value="Enviar" class="botao">
             </form>
         </div>
-        <a href="index.html" id="retorno">Voltar</a>  
+        <a href="index.html" id="retorno" class="btn btn-secondary">Voltar</a>  
     </div>
     <footer>
         <div id="enderecos">

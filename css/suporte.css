@@ -29,11 +29,13 @@ input {
     height: 500px;
 }
 .botao{
-    width: 100px;
+    width: 300px;
+    margin-left: 250px;
 }
 #retorno{
     margin-left: 200px;
-    margin-top: 150px;
+    margin-top: 300px;
+    width: 200px;
 }
 textarea{
     width: 90%;

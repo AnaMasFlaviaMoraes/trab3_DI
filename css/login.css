@@ -32,7 +32,9 @@ input {
     height: 500px;
 }
 .botao{
-    width: 100px;
+    width: 200px;
+    margin-left: 120px;
+    margin-top: -50px;
 }
 #retorno{
     margin-left: 200px;
@@ -42,6 +44,10 @@ input {
 #fundo{
     margin-top: -100px;
     margin-left: 200px;
+}
+
+#link{
+  margin-left: 130px;
 }
 
 .dica{
@@ -73,7 +79,6 @@ input {
   height: 30%;
 }
 
-
 @media (max-width: 800px){
   form {
     
@@ -89,7 +94,7 @@ input {
     margin-left: 10px;
     margin-top: 10px;
   }
-  #retorno, #log{
+  #log{
     margin-left: 10px;
   }
   .dica{
@@ -108,6 +113,22 @@ input {
     height: 50%;
     font-size: 20pt;
   }
+  #link{
+    margin-left: 65px;
+  }
+  .botao{
+    width: 200px;
+    margin-left: 45px;
+  }
+.login{
+  margin-left: 200px;
+  margin-top: 20px;
+}
+#retorno{
+  margin-left: 250px;
+  width: 200px;
+  margin-top: -20px;
+}
   
   
 }
