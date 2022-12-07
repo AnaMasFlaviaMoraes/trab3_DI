@@ -75,6 +75,17 @@ input {
   -ms-transform: translate(-50%, -50%);
 }
 
+#ancora{
+  text-decoration: none;
+  color: white;
+}
+
+button{
+  width: 200px;
+  margin-top: 5px;
+  margin-left: 100px;
+}
+
 @media (max-width: 1000px){
   form {
     

@@ -79,6 +79,17 @@ input {
   height: 30%;
 }
 
+#ancora{
+  text-decoration: none;
+  color: white;
+}
+
+button{
+  width: 200px;
+  margin-top: -50px;
+  margin-left: 120px;
+}
+
 @media (max-width: 800px){
   form {
     
@@ -128,6 +139,11 @@ input {
   margin-left: 250px;
   width: 200px;
   margin-top: -20px;
+}
+button{
+  width: 100px;
+  margin-top: -50px;
+  margin-left: 80px;
 }
   
   

@@ -52,7 +52,23 @@
                         <label for="problema" class="form-label">Descreva sua dúvida?</label>
                         <textarea id="problema" class="form-control"></textarea><br>
                         <br>
-                        <input type="submit" value="Enviar" class="botao btn btn-success">
+                        <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal" id="botao">Enviar</button>
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title">Aviso</h4>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        Sua dúvida foi enviada com sucesso!
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><a href="./index.html" id="ancora">Fechar</a></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </fieldset>
                 </div>
             </form>

@@ -70,6 +70,11 @@ figcaption{
     animation: animate 6s infinite normal;
 }
 
+#retorno{
+    width: 200px;
+    margin-left: 350px;
+}
+
 @keyframes animate{
     from{
         width: 0;
@@ -109,6 +114,9 @@ figcaption{
     
     .animacao{
         margin-left: 100px;
+    }
+    #retorno{
+        margin-left: 280px;
     }
     
   }

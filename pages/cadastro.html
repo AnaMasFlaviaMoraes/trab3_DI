@@ -69,10 +69,21 @@
                         <input type="password" id="confirma_senha" class="form-control"><br>
                         <br>
                     </fieldset>
-                    <div class="mensagem">
-                        <input type="submit" value="Enviar" class="botao btn btn-success" id="botao">
-                        <div id="fora" class="alert alert-success">
-                            <div id="texto"><strong>Sucesso!</strong> Cadastro Realizado com sucesso!</div>
+                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#myModal" id="botao">Enviar</button>
+                    <div class="modal" id="myModal">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h4 class="modal-title">Aviso</h4>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                                </div>
+                                <div class="modal-body">
+                                    Cadastro realizado com sucesso!
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><a href="./index.html" id="ancora">Fechar</a></button>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
